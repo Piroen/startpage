@@ -27,7 +27,7 @@ for (i = 0; i < links.length; i++) {
 }
 
 const search = () => {
-  window.location.href = "https://yandex.ru/search?text=" + encodeURI(inputField.value);
+  window.location.href = "https://www.google.com/search?q=" + encodeURI(inputField.value);
 };
 
 inputField.addEventListener("keypress", (e) => {
